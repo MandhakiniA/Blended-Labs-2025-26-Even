@@ -2,12 +2,11 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:Mandhakini A
+* **Register Number**: 212223100030
+* **Date of Submission**: 27.02.2026
 
----
-
+  
 ## Objective
 
 The objective of this experiment is to understand the fundamentals of Amazon Elastic Compute Cloud (EC2). This lab focuses on launching and managing a virtual server, understanding instance types and AMIs, connecting to an EC2 instance, monitoring its status, and performing basic instance operations such as start, stop, and terminate.
@@ -96,35 +95,30 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
-
+1.The EC2 Dashboard was accessed through the AWS Management Console to explore its various features. 
+2.A new EC2 instance was launched using the Amazon Linux 2 AMI and the t2.micro instance type for free-tier eligibility. 
+3.The security group was configured to allow SSH access from the specified IP address and HTTP access from all IPs. 
+4.The instance was connected via SSH using the downloaded key pair, and basic operations such as stop, start, and reboot were performed.
+5.Finally, the instance was monitored using the Monitoring tab before being terminated to avoid additional charges.
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
+<img width="1919" height="879" alt="555749196-8ddc7969-4606-4c46-a380-bd76cdbe6b02" src="https://github.com/user-attachments/assets/349737c7-f623-4969-9af9-c3a1ad0c155a" />
 
-(Insert Screenshot Here)
 
----
+
+
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
 
----
+<img width="1919" height="866" alt="555749836-2a0f8f2f-95b8-4be4-b348-6eb19fe0f969" src="https://github.com/user-attachments/assets/968638f0-3709-427a-a687-f12cfda515e9" />
+
+
 
 ### Screenshot 3: Instance Monitoring / Status
+![555750185-01cf9c23-3c1d-498e-a9c9-69712560b201](https://github.com/user-attachments/assets/fa80cf88-40a3-4b2e-bf8f-f89031e295f2)
 
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
